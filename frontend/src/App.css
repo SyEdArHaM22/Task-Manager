@@ -1,0 +1,76 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-self: center;*/
+  margin: 20px;
+  /*border: 1px solid;
+  width: 50%;*/
+}
+.create_from input{
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.create_from input:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.create_from button{
+  padding: 10px;
+  color: white;
+  background-color: gray;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: none;
+}
+.create_from button:hover {
+  background-color: green;
+  transform: scale(1.05);
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 131, 33, 0.5);
+}
+.task{
+  display: flex;
+  align-items: center;
+  width: 350px;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 35px;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 5px;
+  border-style: double;
+}
+#task:hover {
+  border-color: black;
+  box-shadow: 0 0 5px rgba(241, 243, 245, 0.5);
+}
+.task-content {
+  flex: 1;
+}
+.icons {
+  font-size: 20px;
+  gap: 10px;
+  cursor: pointer;
+}
+.edit-icon {
+  color: white;
+}
+.edit-icon:hover {
+  color: blue;
+}
+.delete-icon {
+  color: white;
+}
+.delete-icon:hover {
+  color: red;
+}
+@media (max-width: 480px) {
+  .icons {
+    font-size: 12px; 
+  }
+}
