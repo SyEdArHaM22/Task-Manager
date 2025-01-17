@@ -22,8 +22,8 @@ const Home = () => {
             task._id === id ? { ...task, task: editTaskValue } : task
           )
         );
-        setEditTaskId(null); // Reset edit mode
-        setEditTaskValue(''); // Clear input field
+        setEditTaskId(null);
+        setEditTaskValue(''); 
       })
       .catch(error => console.log(error));
   };
